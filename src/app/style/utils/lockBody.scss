@@ -1,0 +1,11 @@
+body {
+  &.lock {
+    overflow: hidden;
+    touch-action: none;
+    overscroll-behavior: none;
+
+    &::after {
+      background: rgba(0, 0, 0, 0.25);
+    }
+  }
+}
